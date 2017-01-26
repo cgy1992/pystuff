@@ -1,3 +1,5 @@
+###Access default arguments of decorated function
+
 `dunm_deco` has no information about default `f` arguments (both positional and keyworded).
 
 So in case if argument with default value hadn't been passed explicitly decorator wouldn't get it.
@@ -19,3 +21,4 @@ args ('a', 'b')
 kwargs {'c': 'keyworded'}
 ```
 
+This was tested with `python 3.5.2`
