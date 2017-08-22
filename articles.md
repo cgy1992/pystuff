@@ -1,0 +1,1 @@
+- [x] http://python-history.blogspot.ru/2010/06/method-resolution-order.html
